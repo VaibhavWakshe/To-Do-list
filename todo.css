@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #3977f3;
+  min-height: 100vh;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: rgb(10, 10, 10);
+  gap: 3rem;
+}
+.App-header .Container{
+  background:rgb(255, 255, 255);
+  padding:1rem 2rem 2.5rem;
+  border-radius:2rem;
+  text-align:center;
+  border: 0.3rem solid white;
+}
+input{
+        width: 50%;
+        border-radius: 3rem;
+        padding:1.5rem;
+        font-size:1.6rem;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+ 
+        
+}
+.todo_style{
+  row-gap: 1rem;
+  margin-right: 2rem;
+}
+ h3{
+  width: 100%;
+  background:red;
+  padding:1rem 0rem 2rem;
+  border-radius:10rem;
+  text-align:center;
+  justify-content: center;
+  color: aliceblue;
+  border: 0.3rem solid white;
+
+ }
+ .Add {
+  
+  margin-left: 1rem;
+  width: 30%;
+  padding:0.9rem 1rem;
+  background:rgb(5, 231, 5);
+  border: .2rem solid white;
+  border-radius: 7rem;
+  font-size:1rem;
+  color:white;
+  letter-spacing:.1rem;
+  font-weight:300;
+
+}
+button{
+
+  margin-left: 2rem;
+  width: 20%;
+  padding:0.9rem .1rem;
+  background:rgb(6, 226, 255);
+  border: .2rem solid white;
+  border-radius: 10rem;
+  font-size:1rem;
+  color:white;
+  letter-spacing:.1rem;
+  font-weight:300;
+}
